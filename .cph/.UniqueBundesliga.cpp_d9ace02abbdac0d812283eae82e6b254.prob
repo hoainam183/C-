@@ -1,0 +1,1 @@
+{"name":"Local: UniqueBundesliga","url":"c:\\Users\\LENOVO\\learn-C-\\UniqueBundesliga.cpp","tests":[{"id":1715689689023,"input":"2\n100 100 100 2 3 1 2 3 1 2 3 \n1 2 3 4 5 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\LENOVO\\learn-C-\\UniqueBundesliga.cpp","group":"local","local":true}

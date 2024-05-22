@@ -17,19 +17,18 @@ int main()
             }
         }
     }
-    for(int i=1;i<=n;i++){
-        for(int j=1;j<=n;j++){
-            if(b[i][j]==1&&a[i][j]!=1) {
-                cout<<"NO";
-                return 0;
-            }
-        }
-    }
-    // cout<<"Yes";
     for(int i=1;i<=n;i++)
         {for(int j=1;j<=n;j++) cout<<a[i][j]<<" ";
         cout<<endl;}
-        for(int i=1;i<=n;i++)
-        {for(int j=1;j<=n;j++) cout<<b[i][j]<<" ";
-        cout<<endl;}
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+            if(b[i][j]==1){
+                if(a[i][j]==0 && a[n+1-j][i]==0){
+                    cout<<"No";
+                    return 0;
+                }
+            }
+        }
+    }
+     cout<<"Yes";
 }
